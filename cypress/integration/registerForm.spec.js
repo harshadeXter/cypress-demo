@@ -4,6 +4,7 @@ describe('Cypress', () => {
         expect(true).to.equal(true)
     })
 
+    // simple test case
     it('opens the app', () => {
         cy.visit('http://localhost:3000')
     })
